@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "desc": "Workout",
+        "status": "in-schedule"
+    },
+    {
+        "id": 2,
+        "desc": "Play guitar",
+        "status": "done"
+    },
+    {
+        "id": 3,
+        "desc": "Eat some food",
+        "status": "in-schedule"
+    },
+    {
+        "id": 4,
+        "desc": "Take a walk",
+        "status": "done"
+    },
+    {
+        "id": 5,
+        "desc": "Play computer games",
+        "status": "in-process"
+    },
+    {
+        "id": 6,
+        "desc": "Listen to music",
+        "status": "in-process"
+    },
+    {
+        "id": 7,
+        "desc": "Take a nap",
+        "status": "in-schedule"
+    },
+    {
+        "id": 8,
+        "desc": "Clean my flat",
+        "status": "done"
+    },
+    {
+        "id": 9,
+        "desc": "Go shopping",
+        "status": "in-schedule"
+    }
+]
