@@ -45,6 +45,16 @@ function Nav() {
                         Pomodoro
                     </NavLink>
                 </li>
+                <li className="nav__element">
+                    <NavLink
+                        to="/pokemon"
+                        className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "active" : ""
+                        }
+                    >
+                        Pokemon List
+                    </NavLink>
+                </li>
             </ul>
         </nav>
     )
