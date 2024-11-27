@@ -7,6 +7,7 @@ import Error from "./components/Error";
 import DraggableCards from "./projects/DraggableCards";
 import Holidays from "./projects/Holidays";
 import Pomodoro from "./projects/Pomodoro";
+import Pokemon from "./projects/PokemonList";
 
 export const router = createBrowserRouter([
     {
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
             {
                 path: "pomodoro",
                 element: <Pomodoro />
+            },
+            {
+                path: "pokemon",
+                element: <Pokemon />
             },
             {
                 path: "error",
