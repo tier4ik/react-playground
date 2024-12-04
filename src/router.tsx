@@ -8,6 +8,7 @@ import DraggableCards from "./projects/DraggableCards";
 import Holidays from "./projects/Holidays";
 import Pomodoro from "./projects/Pomodoro";
 import Pokemon from "./projects/PokemonList";
+import MemoryGame from "./projects/MemoryGame";
 
 export const router = createBrowserRouter([
     {
@@ -34,6 +35,10 @@ export const router = createBrowserRouter([
             {
                 path: "pokemon",
                 element: <Pokemon />
+            },
+            {
+                path: "memory-game",
+                element: <MemoryGame />
             },
             {
                 path: "error",

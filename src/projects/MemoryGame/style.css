@@ -1,0 +1,45 @@
+.memory-game__title {
+    font-size: 2rem;
+    text-align: center;
+}
+.memory-game__field {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(160px, 1fr));
+    grid-auto-rows: auto;
+    gap: 2rem;
+    padding: 1rem;
+}
+.memory-game__card {
+    overflow: hidden;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.memory-game__card_open > .memory-game__card-inner{
+    transform: rotateY(180deg);
+}
+.memory-game__card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.memory-game__card-front, .memory-game__card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+.memory-game__card-front {
+    transform: rotateY(180deg);
+}
+.memory-game__card-back {
+    background-color: #fff;
+}
+.memory-game__card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -55,6 +55,16 @@ function Nav() {
                         Pokemon List
                     </NavLink>
                 </li>
+                <li className="nav__element">
+                    <NavLink
+                        to="/memory-game"
+                        className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "active" : ""
+                        }
+                    >
+                        Memory Game
+                    </NavLink>
+                </li>
             </ul>
         </nav>
     )
